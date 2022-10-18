@@ -1,0 +1,26 @@
+{
+  "name": "amazon-product-spiders-server",
+  "version": "1.0.0",
+  "description": "亚马逊电商网站商品数据爬虫系统",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node ./servers/app.js",
+    "test": "node ./servers/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangin/amazon-product-spiders-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangin/amazon-product-spiders-server/issues"
+  },
+  "homepage": "https://github.com/yangin/amazon-product-spiders-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prettier": "^2.7.1",
+    "puppeteer": "^18.2.1"
+  }
+}
